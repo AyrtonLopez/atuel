@@ -1,0 +1,209 @@
+body {
+		
+		padding-top:0px;
+	}
+
+	.header-top{
+		height: 45px;
+		padding-top: 15px;
+    	padding-bottom: 15px;
+    	border-bottom: 1px solid #f2f2f2;
+     	z-index: 1;
+     	align-items: center;
+
+
+	}
+	
+	.menu{
+	
+		background-color: white;	
+	}
+	.fondoContenedor{
+			background-color: rgba(0, 0, 0, 0.7);	
+  		background: url("../img/slider.jpg")#000;
+  		height: 600px;
+
+			background-repeat: no-repeat;
+  		background-size: cover;
+  		position: relative;
+  overflow: hidden;
+  		color: white;
+  		text-align: center;
+  		align-items: center;
+
+
+	}
+
+
+	.posicion{
+
+	}
+	.superior{
+		margin-right: 30px;
+	}
+	.operativo{
+		margin-top: -50px;
+		background-color: white;
+		border-radius: 10px;
+		background-image: url(../img/map-bg.png);
+		color: blue;
+	}
+
+	.operativo row col-2 i{
+		width: 50px;
+	}
+	.fondoContenedor{
+		;
+
+	}
+	.covid{
+	animation-name: rotation;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes rotation {
+  0% {
+    transform:rotate(0deg);
+  }
+  100% {
+    transform:rotate(360deg);
+  }
+}
+
+	.alert-light {
+		color: #818182;
+		background-color: #fefefe;
+		border-color: #d6d8db;
+		box-shadow: 0 2px 2px #80808047;
+		display: flex;
+		align-items: center;
+		justify-content: safe center;
+		font-family: roboto;
+		text-align: center;
+		font-size: 15;
+
+
+
+	}
+	
+
+	
+	
+	.alert-facturas:hover {
+	  background-color: #2979FF;
+	  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+	  border: 0px;
+	}
+	.alert-facturas:hover .card-title{
+	  color: white;
+	}
+	.alert-facturas .card-title{
+	  color: #black;
+	}
+	.alert-facturas svg .cls-1{
+		fill:#black;
+	}
+
+	.alert-facturas:hover svg .cls-1{
+		fill:#ffffff;
+	}
+	
+	
+	.alert-tramites:hover {
+	  background-color: #2979FF;
+	  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+	  border: 0px;
+	  color:white;
+	}
+	.alert-tramites:hover .card-title{
+	  color: white;
+	}
+	.alert-tramites .card-title{
+	  color: #2979FF;
+	}
+	.alert-tramites svg .cls-2{
+		fill:#2979FF;
+	}
+	.alert-tramites:hover svg .cls-2{
+		fill:#ffffff;
+	}
+
+	.alert-planes-de-pago:hover {
+	  background-color: #2979FF;
+	  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+	  border: 0px;
+	  color:white;
+	}
+	.alert-planes-de-pago:hover .card-title{
+	  color: white;
+	}
+	.alert-planes-de-pago .card-title{
+	  color: #2979FF;
+	}
+	.alert-planes-de-pago svg .cls-7{
+		fill:#2979Ff;
+	}
+	
+	.alert-planes-de-pago:hover svg .cls-7{
+		fill:#ffffff;
+	}
+	
+	.alert-debito:hover {
+	  background-color: #2979FF;
+	  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+	  border: 0px;
+	  color:white;
+	}
+	.alert-debito:hover .card-title{
+	  color: white;
+	}
+	.alert-debito .card-title{
+	  color: #2979FF;
+	}
+	.alert-debito svg .cls-3{
+		fill:#2979FF;
+	}
+	.alert-debito:hover svg .cls-3{
+		fill:#ffffff;
+	}
+	
+	.alert-digital:hover {
+	  background-color: #2979FF;
+	  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+	  border: 0px;
+	  color:white;
+	}
+	.alert-digital:hover .card-title{
+	  color: white;
+	}
+	.alert-digital .card-title{
+	  color: #2979FF;
+	}
+	.alert-digital svg .cls-4{
+		fill:#2979FF;
+	}
+	.alert-digital:hover svg .cls-4{
+		fill:#ffffff;
+	}
+	
+	.alert-medidor:hover {
+	  background-color: #2979FF;
+	  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+	  border: 0px;
+	  color:white;
+	}
+	.alert-medidor:hover .card-title{
+	  color: white;
+	}
+	.alert-medidor .card-title{
+	  color: #2979FF;
+	}
+	.alert-medidor svg .cls-5{
+		fill:#2979FF;
+	}
+	.alert-medidor:hover svg .cls-5{
+		fill:#ffffff;
+	}
+}
